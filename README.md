@@ -4,7 +4,9 @@ A personal finance management Telegram bot built with Google Apps Script.
 Inspired by Secrets of the Millionaire Mind: Mastering the Inner Game of Wealth, this bot applies the suggested account-based budgeting approach to real life—automating financial discipline and bringing clarity to daily spending habits.
 
 📌 Live bot: https://web.telegram.org/k/#@YourMoneyHabitsBot
+
 👥 Active users: 10+
+
 ⚙️ Technologies: Google Apps Script, Telegram Bot API, Google Sheets
 
 📘 Overview
