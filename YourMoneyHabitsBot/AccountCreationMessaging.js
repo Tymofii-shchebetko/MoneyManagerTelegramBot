@@ -1,4 +1,4 @@
-const DONE_INLINE = { parse_mode: "HTML" }; // or your inline mode
+const DONE_INLINE = { parse_mode: "HTML" };
 
 function getTranslation(keyCell) {
   return translationsSheet.getRange(keyCell).getValue();

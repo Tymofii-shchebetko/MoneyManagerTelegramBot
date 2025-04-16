@@ -1,4 +1,3 @@
-// Class to manage user flow and actions
 class TelegramUserFlowManager {
   constructor(sheet, translations) {
     this.sheet = sheet;

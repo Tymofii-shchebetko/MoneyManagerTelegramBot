@@ -11,7 +11,7 @@ function doPost(e) {
     usersText = contents.message.text;
   }
 
-  defineUser(chat_id, usersText); // You can route to different logic here
+  defineUser(chat_id, usersText);
 }
 
 

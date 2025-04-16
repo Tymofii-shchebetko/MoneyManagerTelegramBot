@@ -1,7 +1,5 @@
-// UserAccountsManager.gs
-
-const ACCOUNTS_NUM = 5; // replace with actual column number
-const LAST_CELL_NUM = 20; // replace with actual column number
+const ACCOUNTS_NUM = 5;
+const LAST_CELL_NUM = 20;
 const TOTAL_PERCENT_NUM = 21;
 const ENDPOINT_NUM = 22;
 const ENTERED_DATA = 23;
@@ -20,8 +18,6 @@ function setCell(userId, columnNum, value) {
 function getCell(userId, columnNum) {
   return sheet.getRange(userId, columnNum).getValue();
 }
-
-// Main Functionalities
 
 // Add new account: accountName (string), percent (string/number)
 function addAccount(userId, percent, accountName) {
